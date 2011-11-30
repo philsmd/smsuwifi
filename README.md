@@ -34,7 +34,7 @@ Suggested hardware:
 - Wave Shield for Arduino (w/ SD Card holder)
 
 # Installation and First Steps
-* Copy ard-parse-board in your local bin folder and make it executable (you get the perl script from the link above)
+* Copy ard-parse-board to your local bin folder and make it executable (you get the perl script from the link above)
 
     cp ard-parse-board /usr/local/bin/
     sudo chmod +x /usr/local/bin/ard-parse-board
@@ -53,9 +53,11 @@ Suggested hardware:
     (Note: you should also check the BOARD_TAG variable)
      
 * Check if it compiles:
+
     make
     
 * Connect Arduino to one USB port. When connected and recognized you can upload the sketch to your Arduino:
+
     make upload (w/ Arduino connected)
     (Note: you can compile and upload the sketch also via the Arduino Developer Gui)
 
